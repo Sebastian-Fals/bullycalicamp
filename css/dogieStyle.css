@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.dogiecontent
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(41, 41, 41);
+    border-color: white;
+    border: 10em;
+    margin: 1rem;
+    align-items: center;
+    justify-content: left;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 70%;
+}
+
+#slider
+{
+    max-width: 50vh;
+}
+
+#text
+{
+    font-size: large;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content:stretch;
+    max-width: 20rem;
+    height: 26rem;
+    text-align: left;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 769px)
+{
+
+}
+
+@media screen and (max-width: 768px)
+{
+    #text{
+        width: 100%;
+        font-size: medium;
+        margin: 0px;
+        height: auto;
+    }
+    .dogiecontent
+    {
+        width: 90%;
+    }
+}
